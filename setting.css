@@ -1,0 +1,62 @@
+<style>
+input[type=checkbox] {
+  display: block;
+}
+
+input[type=checkbox]:checked~.remove-check {
+  display: none;
+}
+
+  .enable{
+    max-width: 100px !important;
+  }
+
+
+  #loader {
+    position: fixed;
+     left: 50%;
+     top: 50%;
+     z-index: 1;
+     margin: -75px 0 0 -75px;
+     border: 12px solid #ffd2ba;
+     border-radius: 50%;
+     border-top: 12px solid #3498db;
+     width: 80px;
+     height: 80px;
+     display: none;
+     -webkit-animation: spin 2s linear infinite;
+     animation: spin 2s linear infinite;
+  }
+
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+
+  .button-secondary
+  {
+      background: #e5e5e5 ;
+  }
+  #wpbody-content .metabox-holder {
+      padding-top: 0px;
+  }
+  h2 {
+      margin-bottom: 0;
+  }
+  .tab-content {
+  	display:none
+  }
+  #tab1 {
+  	display:block
+  }
+
+
+  </style>

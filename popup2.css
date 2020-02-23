@@ -1,0 +1,170 @@
+/*!
+* Do not modify this file directly.  It is compiled SASS code.
+*/
+
+
+#billing_first_name,#billing_last_name,#billing_company,#billing_address_1,#billing_phone,#billing_email{
+  background-color: #FDFFD7;
+  position: relative;
+  width:20%auto;
+  max-width: 350px;
+  margin-right: 50px;
+  padding-right: 20px;
+
+}
+
+@media only screen and (max-width: 668px) {
+    .modal-content {
+      height: 765px !important;
+      width: 85%;
+    }
+    .modal{
+      padding-top: 0px !important;
+    }
+
+
+
+}
+@media only screen and (max-height: 700px) {
+  .modal-content {
+  width: 85%;
+     height:  765px !important;
+  }
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 999; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    height: 70%;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    max-width: 550px;
+    width: 73%;
+
+}
+.modal-son {
+
+    position: fixed; /* Stay in place */
+    z-index: 9999999; /* Sit on top */
+    padding-top: 200px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content-son {
+    padding: 20px;
+    background-color:#ffffff;
+    margin: auto;
+    height: 280px;
+    width: 450px;
+    position: relative;
+    margin: auto;
+
+}
+
+
+.button-primary{
+  width: 150px !important;
+  background-color:#0097A7 !important;
+   border: 1px solid #0097A7 !important;
+   color:#FFFFFF !important;
+   box-shadow: 1px 1px 1px 0px #424242 !important;
+}
+
+.cart_button{
+  width: 100px;
+  height:40px;
+}
+#billing_first_name_field{
+  width:10%auto;
+  height: 10%auto;
+}
+#Name1{
+  width:19px;
+}
+.label {
+      max-width: 200px;
+
+}
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.woocommerce-billing-fields label { display:block !important; text-align: left !important; }
+.input-text{
+	margin: auto;
+}
+.woocommerce-billing-fields{
+  max-width: 550px;
+}
+
+#loader {
+  position: fixed;
+   left: 50%;
+   top: 50%;
+   z-index: 9999999999;
+
+   margin: -75px 0 0 -75px;
+   border: 12px solid #ffd2ba;
+   border-radius: 50%;
+   border-top: 12px solid #3498db;
+   width: 80px;
+   height: 80px;
+   display: none;
+   -webkit-animation: spin 2s linear infinite;
+   animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    .woocommerce-billing-fields{
+      width: 100%;
+      height: 50%;
+    }
+
+}
